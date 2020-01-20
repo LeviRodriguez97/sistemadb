@@ -59,7 +59,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(140, 42)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Te tengo perro"
+        Me.Button2.Text = "DALE CLICC"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
