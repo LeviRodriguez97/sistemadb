@@ -29,6 +29,7 @@ Partial Class Form1
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.DomainUpDown1 = New System.Windows.Forms.DomainUpDown()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -92,11 +93,21 @@ Partial Class Form1
         Me.DomainUpDown1.TabIndex = 6
         Me.DomainUpDown1.Text = "DomainUpDown1"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(136, 169)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Dale Click"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DomainUpDown1)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.ComboBox1)
@@ -119,6 +130,7 @@ Partial Class Form1
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents DomainUpDown1 As DomainUpDown
+    Friend WithEvents Button2 As Button
 =======
     Friend WithEvents Button2 As Button
 >>>>>>> 79c68016ce840e485426f156450a35d57a267495
