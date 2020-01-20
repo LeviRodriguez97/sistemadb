@@ -25,7 +25,11 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+<<<<<<< HEAD
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+=======
+        Me.Button2 = New System.Windows.Forms.Button()
+>>>>>>> 79c68016ce840e485426f156450a35d57a267495
         Me.SuspendLayout()
         '
         'Label1
@@ -53,6 +57,7 @@ Partial Class Form1
         Me.TextBox1.Size = New System.Drawing.Size(82, 20)
         Me.TextBox1.TabIndex = 2
         '
+<<<<<<< HEAD
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -62,13 +67,27 @@ Partial Class Form1
         Me.CheckBox1.TabIndex = 3
         Me.CheckBox1.Text = "nada"
         Me.CheckBox1.UseVisualStyleBackColor = True
+=======
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(567, 147)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(140, 42)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "DALE CLICC"
+        Me.Button2.UseVisualStyleBackColor = True
+>>>>>>> 79c68016ce840e485426f156450a35d57a267495
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+<<<<<<< HEAD
         Me.Controls.Add(Me.CheckBox1)
+=======
+        Me.Controls.Add(Me.Button2)
+>>>>>>> 79c68016ce840e485426f156450a35d57a267495
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
@@ -82,5 +101,9 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
+<<<<<<< HEAD
     Friend WithEvents CheckBox1 As CheckBox
+=======
+    Friend WithEvents Button2 As Button
+>>>>>>> 79c68016ce840e485426f156450a35d57a267495
 End Class
