@@ -28,6 +28,7 @@ Partial Class Formulario2
         Me.Button1 = New System.Windows.Forms.Button()
         Me.DomainUpDown1 = New System.Windows.Forms.DomainUpDown()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,11 +71,19 @@ Partial Class Formulario2
         '
         Me.ErrorProvider1.ContainerControl = Me
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(475, 296)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 4
+        '
         'Formulario2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.DomainUpDown1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox1)
@@ -92,4 +101,5 @@ Partial Class Formulario2
     Friend WithEvents Button1 As Button
     Friend WithEvents DomainUpDown1 As DomainUpDown
     Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class

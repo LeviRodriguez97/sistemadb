@@ -28,6 +28,7 @@ Partial Class Form1
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.DomainUpDown1 = New System.Windows.Forms.DomainUpDown()
         Me.SuspendLayout()
         '
         'Label1
@@ -83,11 +84,20 @@ Partial Class Form1
         Me.CheckBox2.Text = "CheckBox2"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
+        'DomainUpDown1
+        '
+        Me.DomainUpDown1.Location = New System.Drawing.Point(465, 356)
+        Me.DomainUpDown1.Name = "DomainUpDown1"
+        Me.DomainUpDown1.Size = New System.Drawing.Size(120, 20)
+        Me.DomainUpDown1.TabIndex = 6
+        Me.DomainUpDown1.Text = "DomainUpDown1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.DomainUpDown1)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.CheckBox1)
@@ -108,6 +118,7 @@ Partial Class Form1
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents DomainUpDown1 As DomainUpDown
 =======
     Friend WithEvents Button2 As Button
 >>>>>>> 79c68016ce840e485426f156450a35d57a267495
